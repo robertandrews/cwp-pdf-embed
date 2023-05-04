@@ -28,7 +28,8 @@ function pdf_embed_filter_content($content)
             $embedCode->setAttribute('width', '100%');
             $embedCode->setAttribute('height', '950px');
 
-            $parentNode->parentNode->replaceChild($embedCode, $parentNode);
+            // Add the embed code below the link
+            $parentNode->appendChild($embedCode);
         }
     }
 
