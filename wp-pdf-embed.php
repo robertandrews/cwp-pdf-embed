@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: PDF Embed
+ * Plugin Name: WP PDF Embed
  * Description: Renders PDF links as embeds on the frontend.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Robert Andrews
  */
 
 // Filter the content and replace PDF links with embeds
